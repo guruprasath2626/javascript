@@ -24,7 +24,7 @@ operators
 
 Arthmetric operators: +  -  * **  / %  ++  --
 Assignment operators: =  +=  -=  *=  /=  %=  **=
-Comparison operators: ==  ===  !=  !==  >  <  >=  <=  
+Comparison operators: ==  ===  !=  !==  >  <  >=  <=  ?:-ternery operator
 Logical operators: &&  ||  !
 Bitwise operators: &  |  ~  ^  <<  >>  >>>
 
@@ -40,6 +40,15 @@ o/p=4
 */
 
 
-a=10
-b=30
-console.log(a>b)
+// a=10
+// b=30
+// console.log(a>b)
+
+//-------------------------------------------------------------------------- 6/3/2024
+// let a= prompt("how many tickets do you want")
+// console.log("you should pay",a*30)
+
+
+
+alert("hai")
+// console.log("hiii");
