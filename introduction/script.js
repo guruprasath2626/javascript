@@ -330,3 +330,81 @@ console.log(a[1][1]);
 // }
 
 // console.log("The day is: " + dayName);
+
+/*----------------------------------------------------------------------------------------------------------------------12/3/2024*/
+
+let a={
+        name:'mobile',
+        price:50000,
+        quantity:1,
+        dimension:{
+                height:4.5,
+                wieght:50
+        }
+        
+
+}
+// console.log(a);
+// console.log(a.name);
+// console.log(a.price);
+// a.name='mobiles'
+// console.log(a);
+// // adding new property
+// a.purchase=true
+// console.log(a);
+
+// // using square bracket notation
+// console.log(a['name']);
+// a['purchase']=true
+// console.log(a);
+
+
+//a['name']=3252
+// a.name=3657
+// console.log(a);
+// // let a= new Object()
+// // a.name='charger',
+// // a.price=800,
+// // a.quantity=1
+// // console.log(a);
+// // console.log(a.name)
+
+// let b='price'
+// a[b]=2000
+// a.b=4000
+// console.log(a.dimension)
+
+
+// objet with methods-----------------------------
+
+// let b={
+//         name:'mobile',
+//         price:50000,
+//         quantity:1,
+//         dimension:{
+//                 height:4.5,
+//                 wieght:50
+//         },
+
+//         c:function(){
+//                 console.log("first function");
+//         },
+//         d(){
+//                 console.log("second function");
+//         }
+// }
+// b.c()
+// b.d()
+
+
+// loops------------------
+
+for (let i =0; i<=5; i++){
+        console.log(i)
+}
+
+
+for (let i =0; i<=5; i++){
+        console.log("hello")
+}
+console.log("hai")
