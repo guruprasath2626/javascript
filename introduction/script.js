@@ -179,7 +179,7 @@ console.log(a[1][1]);
 // console.log(a.pop())
 
 
-//shift - remove the element fron the start of array and return the removed element
+//shift - remove the element from the start of array and return the removed element
 
 // a.shift()
 // console.log(a)
@@ -333,17 +333,17 @@ console.log(a[1][1]);
 
 /*----------------------------------------------------------------------------------------------------------------------12/3/2024*/
 
-let a={
-        name:'mobile',
-        price:50000,
-        quantity:1,
-        dimension:{
-                height:4.5,
-                wieght:50
-        }
+// let a={
+//         name:'mobile',
+//         price:50000,
+//         quantity:1,
+//         dimension:{
+//                 height:4.5,
+//                 wieght:50
+//         }
         
 
-}
+// }
 // console.log(a);
 // console.log(a.name);
 // console.log(a.price);
@@ -399,12 +399,136 @@ let a={
 
 // loops------------------
 
-for (let i =0; i<=5; i++){
-        console.log(i)
-}
+// for (let i =0; i<=5; i++){
+//         console.log(i)
+// }
 
 
-for (let i =0; i<=5; i++){
-        console.log("hello")
-}
-console.log("hai")
+// for (let i =0; i<=5; i++){
+//         console.log("hello")
+// }
+// for (let i =5; i>=0; i--){
+//         console.log(i)
+// }
+
+//----------------------------------------------------------------------------------------------13/3/2024
+//------while loop----
+// i=10
+// while (i>=1){
+//         console.log(i)
+//         i--;
+        
+// }
+
+// //-------do while------------
+// i=1
+// do{
+//     console.log(i)
+//     i++
+// }
+// while(i<=5)
+
+// //---------breake statement---stops the loop
+
+// while(true){
+//         a= Number(prompt("enter the number: "))
+//         if (!isNaN(a))
+//                 break;
+        
+
+// }
+
+
+//----------continue - skips the current iteration
+// for (i=1;i<=10;i++){
+//         if (i%3==0)
+//         continue
+// console.log(i);
+// }
+
+// let a=['a','b','c','d']
+// for (i=0;i<a.length;i++){
+//     console.log(a)
+// }
+
+// for of ----------------------
+// let a=['a','b','c','d']
+// for (i of a){
+//         console.log(a)
+// }
+
+
+
+// for in-----------used in object
+// let a=['a','b','c','d']
+// for (i in a){
+//         console.log(a)
+// }
+
+
+// i={
+//         a:10,
+//         b:30,
+//         c:40
+// }
+// for (let j in i){
+//         console.log(i[j])
+// }
+
+//-------functions----------------------
+//--it performs specific task can be called multiple times 
+//optionally takes input as parameters and optionally returns value
+
+
+// function isPositive(num){
+//         return num>0
+// }
+// console.log(isPositive(0));
+
+
+//hoisting
+//javascript hoisting refers to the process whereby the interpreter appears
+//to move the declaration of  functions, variable or classes
+// to the top of their scope,prior to execution of the code
+
+
+
+
+
+
+
+
+
+// function f(a,b){
+//         return a*b
+// }
+// console.log(f(2,3))
+// console.log(f)
+
+
+// -----------default parameter-----------
+// function g(name='here'){
+//         console.log('hi',name)
+// } 
+// g('guru')
+// g()
+
+
+
+// ----------------recursion function------
+
+//factorial
+// function fact(n){
+//         if (n==1)
+//                 return 1
+
+//         return n*fact(n-1)
+// }
+// console.log(fact(5))
+
+// let a=100
+// let i=function (n){
+//         return n%2==0
+// }
+// console.log(i(4))
+// console.log(i)
